@@ -1,0 +1,7 @@
+class {{className}} {
+    constructor(obj) {
+        {{#each properties}}
+        this.{{this}} = obj.{{this}};
+        {{/each}} 
+    }
+}
